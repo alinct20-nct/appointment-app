@@ -529,16 +529,6 @@ export default function App() {
         {language === 'en' ? 'Save Changes' : 'حفظ التغييرات'}
       </button>
     );
-  } else if (activeTab === 'Dashboard' && !selectedAppointmentId) {
-    headerActionButton = (
-      <button 
-        onClick={() => setSelectedAppointmentId('SB-99201-C')}
-        className="bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-800 px-4 py-2 rounded-lg font-bold text-xs flex items-center gap-1.5 hover:shadow transition-all active:scale-95 cursor-pointer"
-      >
-        <span className="material-symbols-outlined text-sm">open_in_new</span>
-        {language === 'en' ? 'Demo detail card' : 'بطاقة تفاصيل تجريبية'}
-      </button>
-    );
   }
 
   return (
