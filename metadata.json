@@ -1,0 +1,6 @@
+{
+  "name": "SmileBook",
+  "description": "Redefining Digital Dental Care Excellence - A modern dental clinic management platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
